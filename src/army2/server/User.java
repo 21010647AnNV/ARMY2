@@ -3255,7 +3255,7 @@ public class User {
                                         case 0:
                                             id = 55;
                                             type = 2;
-                                            int[] nextXu = new int[]{1000, 2000, 5000, 10000, 12000, 15000, 20000, 25000, 30000, 40000, 50000, 70000, 100000};
+                                            int[] nextXu = new int[]{1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000};
                                             int xuUp = nextXu[Until.nextInt(nextXu.length)];
                                             name = Until.getStrungNum(xuUp) + " xu";
                                             break;
@@ -3331,7 +3331,7 @@ public class User {
                 case 0:
                     id = 55;
                     type = 2;
-                    int[] nextXu = new int[]{1000, 2000, 5000, 10000, 12000, 15000, 20000, 25000, 30000, 40000};
+                    int[] nextXu = new int[]{1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000};
                     int xuUp = nextXu[Until.nextInt(nextXu.length)];
                     this.updateXu(xuUp);
                     name = Until.getStrungNum(xuUp) + " xu";
